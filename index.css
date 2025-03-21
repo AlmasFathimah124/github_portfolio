@@ -613,3 +613,27 @@ body:not(.user-is-tabbing) a:focus {
         padding: var(--gutter-medium) 0;
     } 
 }
+.experience__wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem; /* spacing between boxes */
+  justify-content: space-between;
+}
+
+.experience__item {
+  flex: 1 1 calc(50% - 2rem); /* Two items per row with spacing */
+  background-color: rgba(255, 255, 255, 0.03);
+  padding: 2rem;
+  border: 1px solid var(--white-1);
+  border-radius: 8px;
+  min-width: 300px;
+  box-shadow: 0 0 10px rgba(255, 255, 255, 0.05);
+}
+
+/* Responsive stacking on small screens */
+@media (max-width: 768px) {
+  .experience__item {
+    flex: 1 1 100%;
+  }
+}
+
