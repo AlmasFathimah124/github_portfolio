@@ -1,7 +1,13 @@
-title: Almas Fathimah
-# logo: C:/Users/almas/Downloads/almas_pic.jpg
-show_downloads: true
-theme: jekyll-theme-minimal
+title: "Almas Fathimah"
+description: "Data Scientist | AI | Big Data | ML | Embedded Systems"
+url: "https://almasfathimah124.github.io"
+github_username: AlmasFathimah124
+linkedin_username: almas-fathimah-90
 
+# Theme
+remote_theme: "mmistakes/minimal-mistakes"
+
+# Resume Link
+resume: /assets/AlmasFathimah_Resume.pdf
 
 
