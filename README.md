@@ -3,9 +3,7 @@
 
 ## About Me
 Data Science professional with expertise in AI, ML, Big Data, and Embedded Systems. Passionate about building AI-powered solutions that drive real-world impact. Experienced in predictive modeling, NLP, and data pipelines, with exposure to diagnostics and telematics in the automotive domain.
-
 ---
-
 ## Skills
 - **Programming:** Python, SQL, C, C++, Java, HTML/CSS, PL/SQL  
 - **Databases:** MySQL, Oracle, MongoDB, SQL Server  
@@ -17,11 +15,8 @@ Data Science professional with expertise in AI, ML, Big Data, and Embedded Syste
 - **Machine Learning & NLP:** Scikit-learn, Keras, OpenCV, Transformers, CNN, Dash  
 - **OS & Platforms:** Windows, Mac OS, Linux  
 - **Embedded Systems:** UART, SPI, I2C, RTOS (learning), Cantata  
-
 ---
-
-## 💼 Work Experience
-
+## Work Experience
 ### **Data Science Intern – CalAmp (Sep 2024 – Dec 2024)**
 - Designed a ReAct-based AI system integrating Azure OpenAI embeddings and FAISS for intelligent SQL generation.
 - Built Streamlit UI for real-time SQL execution and visualization; reduced data retrieval time by 70%.
@@ -41,36 +36,35 @@ Data Science professional with expertise in AI, ML, Big Data, and Embedded Syste
 ### **Contract Assignee – Tata Consultancy Services (Apr 2015 – Jan 2016)**
 - Designed and implemented embedded tests for airbag control systems using C/C++ and Assembly.
 - Validated system compliance with automotive safety standards using Cantata.
-
 ---
 
-## 🔥 Projects
+## Projects
 
 ### **[UMBC Data Science Chatbot](https://github.com/AlmasFathimah124)**
 - Built a chatbot using OpenAI embeddings, LangChain, and Dialogflow ES for student queries.
 - Enabled real-time semantic search using RAG pipeline and FastAPI.
 
-### **Multi-Label Clinical Text Classification & Summarization(https://github.com/AlmasFathimah124/Multi-Label-Clinical-Text-Eligibility-Classification-and-Summarization-System)**
+### **[Multi-Label Clinical Text Classification & Summarization](https://github.com/AlmasFathimah124/Multi-Label-Clinical-Text-Eligibility-Classification-and-Summarization-System)**
 - Implemented multi-label classification using SVM/Random Forest on clinical texts.
 - Generated summaries using TextRank, GPT-3, and evaluated with ROUGE.
 
-### **Stock Market Analytics with MongoDB & Tableau(https://github.com/AlmasFathimah124/Python-Powered-Stock-Market-Analytics-with-MongoDB-PySpark-and-Tableau)**
+### **[Stock Market Analytics with MongoDB & Tableau](https://github.com/AlmasFathimah124/Python-Powered-Stock-Market-Analytics-with-MongoDB-PySpark-and-Tableau)**
 - Pulled stock data via API, stored in MongoDB, and visualized with Tableau.
 - Applied PySpark for trend analysis and real-time data transformations.
 
-### **ASA Classification & Discharge Time Prediction(https://github.com/AlmasFathimah124/Predicting-Patient-Outcomes-using-ASA-Classification)**
+### **[ASA Classification & Discharge Time Prediction](https://github.com/AlmasFathimah124/Predicting-Patient-Outcomes-using-ASA-Classification)**
 - Built ML models for ASA status classification and discharge prediction using ensemble techniques.
 - Evaluated with MAE, RMSE, F1, and R² scores.
 
-### **Project Management System(https://github.com/AlmasFathimah124/Project-management-system)**
+### **[Project Management System](https://github.com/AlmasFathimah124/Project-management-system)**
 - Developed a modular Python-based system using OOP, search/sort algorithms, and unit tests.
 
 ---
 
-## 📫 Contact Me
-- 📧 **Email:** [almasfathima4@gmail.com](mailto:almasfathima4@gmail.com)  
-- 🧠 **GitHub:** [github.com/AlmasFathimah124](https://github.com/AlmasFathimah124)  
-- 💼 **LinkedIn:** [linkedin.com/in/almas-fathimah-90](https://www.linkedin.com/in/almas-fathimah-90)
+## Contact Me
+- **Email:** [almasfathima4@gmail.com](mailto:almasfathima4@gmail.com)  
+- **GitHub:** [github.com/AlmasFathimah124](https://github.com/AlmasFathimah124)  
+- **LinkedIn:** [linkedin.com/in/almas-fathimah-90](https://www.linkedin.com/in/almas-fathimah-90)
 
 ---
 
