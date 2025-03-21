@@ -176,13 +176,16 @@ h3 {
 
 p {
     margin: var(--gutter-small-1) 0;
+    font-size: 0.95rem; /* or use px like 14px */
 }
 
 @media(max-width: 900px) {
     p { 
         max-width: var(--container-small-width);
+        font-size: 0.85rem; /* slightly smaller for mobile */
     }
 }
+
 
 /* --------------------------------------- */
 /* ----- Buttons and Links ----- */
