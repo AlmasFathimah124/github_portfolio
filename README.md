@@ -1,13 +1,7 @@
-# 💻 Almas Fathimah | Data Scientist Portfolio
+#  Almas Fathimah 
 
 Welcome to my professional portfolio!  
 I'm a Data Science graduate student with a background in AI, ML, Embedded Systems, and Big Data.  
-
-🎯 This portfolio showcases my:
-- 🔍 Data-driven projects
-- 🤖 AI & NLP applications
-- 📊 Visualizations using Power BI & Tableau
-- ⚙️ Full-stack solutions combining Python, APIs, and SQL
 
 ---
 
@@ -18,7 +12,7 @@ I'm a Data Science graduate student with a background in AI, ML, Embedded System
 
 ---
 
-## 🧩 Featured Projects
+##  Featured Projects
 
 | Project | Description |
 |--------|-------------|
@@ -29,7 +23,7 @@ I'm a Data Science graduate student with a background in AI, ML, Embedded System
 
 ---
 
-## 📬 Contact Me
+##  Contact Me
 
 📧 [almasfathima4@gmail.com](mailto:almasfathima4@gmail.com)  
 🔗 [LinkedIn](https://linkedin.com/in/almas-fathimah-90)
