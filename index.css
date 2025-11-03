@@ -5,12 +5,14 @@ body {
   color: #333;
 }
 
+/* Container / generic content spacing (works fine with Bootstrap .container) */
 .container, .content {
   max-width: 1200px;
   margin: 0 auto;
   padding: 2rem;
 }
 
+/* Legacy hero layout (not used by current HTML, safe to keep or remove) */
 .hero-section {
   display: flex;
   flex-wrap: wrap;
@@ -45,6 +47,7 @@ body {
   color: #0077b5;
 }
 
+/* Button styling for any custom non-Bootstrap buttons if used */
 .buttons a {
   display: inline-block;
   margin-right: 1rem;
@@ -62,6 +65,7 @@ body {
   background: #005f94;
 }
 
+/* Headings for any custom .content sections */
 .content h2 {
   margin-top: 2rem;
   border-bottom: 2px solid #0077b5;
@@ -69,6 +73,7 @@ body {
   font-size: 2rem;
 }
 
+/* Grid layout for custom experience blocks (unused with Bootstrap accordion but fine to keep) */
 .experience-grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
@@ -76,6 +81,7 @@ body {
   margin-top: 1rem;
 }
 
+/* General card styling (enhances Bootstrap .card) */
 .card {
   background: #ffffff;
   border: none;
@@ -89,6 +95,7 @@ body {
   transform: translateY(-5px);
 }
 
+/* List spacing */
 .projects-list {
   padding-left: 1rem;
 }
@@ -101,6 +108,7 @@ ul {
   padding-left: 1.2rem;
 }
 
+/* Links */
 a {
   color: #0077b5;
   text-decoration: none;
@@ -110,6 +118,7 @@ a:hover {
   text-decoration: underline;
 }
 
+/* Responsive tweaks */
 @media (max-width: 768px) {
   .hero-section {
     flex-direction: column;
@@ -120,62 +129,49 @@ a:hover {
   }
 }
 
-/* Accordion Styling */
+/* ---------------------- */
+/* ACCORDION (Bootstrap)  */
+/* ---------------------- */
+
+/* Allow Bootstrap accordion to use full width — remove the 400px limit */
 .accordion {
-  max-width: 400px;
+  max-width: 100%;
   margin: 0 auto;
 }
 
-.accordion-btn {
-  background-color: #e8f0fc;
-  color: #0d47a1;
-  cursor: pointer;
-  padding: 1rem;
-  width: 100%;
-  border: none;
-  text-align: left;
-  outline: none;
-  transition: background 0.3s ease;
-  font-size: 1.2rem;
-  font-weight: 600;
-  border-radius: 6px;
-  margin-top: 1rem;
-}
-
-.accordion-btn:hover {
-  background-color: #d0e2ff;
-}
-
-.accordion-content {
-  background-color: #f6f9fc;
-  max-height: 0;
-  overflow: hidden;
-  transition: max-height 0.3s ease-out;
-  padding: 0 1.2rem;
-  color: #333;
-  border-radius: 0 0 6px 6px;
-  border-left: 3px solid #0077b5;
-  border-right: 3px solid #0077b5;
-  margin-bottom: 1rem;
-}
+/* Your HTML uses .accordion-button / .accordion-body from Bootstrap,
+   so the old .accordion-btn / .accordion-content styles are not needed.
+   You can delete them or leave them; they won’t affect anything now. */
 
 .accordion-body {
-  padding: 0.5rem 1rem; /* Smaller padding */
-  font-size: 0.9rem;    /* Slightly smaller text */
+  padding: 0.75rem 1.25rem;
+  font-size: 0.95rem;
 }
 
-.accordion-content p {
-  padding: 0.7rem 0;
-  font-size: 1rem;
-}
+/* ---------------------- */
+/* PROJECT IMAGES         */
+/* ---------------------- */
 
-.accordion-btn.active + .accordion-content {
-  max-height: 500px;
-  padding-bottom: 1rem;
-}
-
+/* Make project images visible & nice instead of tiny 40px thumbnails */
 .card-img-top {
-  max-height: 40px;
+  max-height: 200px;
   object-fit: cover;
 }
 
+/* ---------------------- */
+/* ASK ABOUT ME SECTION   */
+/* ---------------------- */
+
+#askme .card {
+  border-radius: 12px;
+}
+
+#askme textarea {
+  resize: vertical;
+  min-height: 120px;
+}
+
+#askme #answerBox .alert {
+  font-size: 0.95rem;
+  line-height: 1.5;
+}
